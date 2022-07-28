@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(-45deg, #089f8f, #00898a, #08737f, #2a4858);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body {
+	background: linear-gradient(-45deg, #089f8f, #00898a, #08737f, #2a4858);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@font-face{
+    font-family: "semilight";
+    src: url(./FONTE/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf);
+
+}
+
+@font-face{
+    font-family: "ultralight";
+    src: url(./FONTE/cocogoose/Cocogoose\ Pro\ Ultralight-trial.ttf);
+
+}
+
+h1{
+   text-align: center;
+   font-family: semilight;
+   color: white;
+}
+
+h3 {
+    position: relative;
+   text-align: center;
+   font-family: ultralight;
+   color:white;
+    
+}
+
+.box{
+width: 550px;
+background-color: rgb(0, 0, 0, 0.5);
+margin: auto;
+border-radius: 5px;
+
+}
+
+.container{
+    
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+label{
+    position: relative;
+   text-align: center;
+   font-family: ultralight;
+   color:white;
+}
+
+
+#nome{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: ultralight;
+    
+}
+
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: ultralight;
+}
+
+#contato{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+
+#age{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: ultralight;
+}
+
+.custom-select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: ultralight;
+    cursor: pointer;
+
+}
+
+.checkbox{  
+  height: 15px;
+  width: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.genero{
+    cursor: pointer;
+}
+
+.sugestao{
+    width: 100%;
+    font-size: 18px;
+    height: 100px;
+}
+
+textarea{
+    resize: vertical;
+}

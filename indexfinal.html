@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8"/>
+    <title>Formulário de Pesquisa</title>
+    <link rel="shortcut icon" href="./IMAGENS/ICON.png">
+    <link rel="stylesheet" href="stylesfinal.css">
+
+</head>
+
+    <body >
+        
+            <h1>Nos ajude a te conhecer!</h1>
+
+            <h3 class="subtitulo">Queremos melhorar sua experiência com algumas simples respostas</h3>
+        
+        
+        <div class="box">
+            <div class="container">
+
+                <label>Nome</label><br>
+                <input name="name" id="nome" type="text" placeholder="Nome"><br><br>
+
+                <label>Email</label><br>
+                <input name="email" id="email" type="text" placeholder="Email"><br><br>
+
+                <label>Celular</label><br>
+                <input name="tel" id="contato" type="tel" placeholder="(99)12345-6789"  
+        pattern="[0-9{2}-[0-9{5}]-[0-9{4}]" 
+        size="20" minlength="9" maxlength="11" required ><br><br>
+
+                <label>A opção que melhor descreve sua ocupação:</label><br><br>
+                <select name="ocupa" class="custom-select" >
+                    <option disabled selected>Escolha uma opção</option>
+                    <option value="estudante">Estudante</option>
+                    <option value="integral">Tempo Integral</option>
+                    <option value="parcial">Tempo Parcial</option>
+                </select><br><br>
+
+                <label>Idade</label><br>
+                <input name="age" id="age" type="text" placeholder="Idade" ><br><br>
+
+                <label>Sexo:</label><br>
+                <input type="radio" class="genero" name="sexo" value="masculino">
+                <label for="masc">Masculino</label><br>
+                <input type="radio" class="genero" name="sexo" value="feminino">
+                <label for="fem">Feminino</label> <br><br>
+
+                <label>O que você mais valoriza?</label>
+                <select name="valoriza" class="custom-select">
+                    <option disabled selected>Escolha uma opção</option>
+                    <option value="atendimento">Atendimento Humanizado</option>
+                    <option value="rapidez">Rapidez no Atendimento</option>
+                    <option value="solucao">Foco na Solução</option>
+                    <option value="profissionais">Profissionais Capacitados</option>
+                </select>
+
+                <h3>O que você gostaria de novidade?</h3>
+                <input type="checkbox" id="cafezinho" name="cafezinho" class="checkbox">
+                <label for="cafezinho">Cafézinho</label><br>
+                <input type="checkbox" id="videogame" name="videogame"class="checkbox">
+                <label for="videogame">Video Game</label><br>
+                <input type="checkbox" id="filmesseries" name="filmesseries"class="checkbox">
+                <label for="filmesseries">Filmes e Séries</label><br>
+                <input type="checkbox" id="show" name="show"class="checkbox">
+                <label for="show">Show Ao Vivo</label><br>
+                <input type="checkbox" id="standup" name="standup"class="checkbox">
+                <label for="standup">Stand-up Comedy</label><br><br>
+
+                <label>Compartilhe se tiver mais alguma sugestão:</label><br><br>
+                <textarea class="sugestao" name="sugestao" placeholder="Escreva aqui"></textarea>
+
+
+            </div>
+        </div>
+        
+        
+
+    </body>
+
+</html>
